@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+
+    <p class="h1">hello world</p>
+    <p class="h2">hello world</p>
+    <p class="h3">hello world</p>
+    <p class="h4">hello world</p>
+    <p class="h5">hello world</p>
+    <p class="h6">hello world</p>
+
+
+
+    <h3>
+      Fancy display heading
+      <small class="text-body-secondary">With faded secondary text</small>
+    </h3>
+
+<h1 class="display-1">Display 1</h1>
+<h1 class="display-2">Display 2</h1>
+<h1 class="display-3">Display 3</h1>
+<h1 class="display-4">Display 4</h1>
+<h1 class="display-5">Display 5</h1>
+<h1 class="display-6">Display 6</h1>
+
+
+<p><abbr title="attribute">attr</abbr></p>
+<p><abbr title="HyperText Markup Language" class="initialism">HTML</abbr></p>
+
+
+<blockquote class="blockquote">
+  <p>A well-known quote, contained in a blockquote element.</p>
+</blockquote>
+
+
+<figure>
+  <blockquote class="blockquote">
+    <p>A well-known quote, contained in a blockquote element.</p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    Someone famous in <cite title="Source Title">Source Title</cite>
+  </figcaption>
+</figure>
+
+<img src="images/banner.jpg" alt="banner" class="img-fluid rounded mx-auto d-block">
+
+
+<p class="text-center h1 my-3">TABLES DATA</p>
+<table class="table table-dark table-striped my-3">
+  
+  <tr>
+    <th>No.</th>
+    <th>TLD</th>
+    <th>Duration</th>
+    <th>Registration</th>
+    <th>Renewal</th>
+    <th>Transfer</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>01</td>
+      <td>.com</td>
+      <td>1 Year</td>
+      <td>$80</td>
+      <td>$10</td>
+      <td>$10</td>
+    </tr>
+    <tr>
+      <td>02</td>
+      <td>.net</td>
+      <td>1 Year</td>
+      <td>$85</td>
+      <td>$10</td>
+      <td>$10</td>
+    </tr>
+    <tr>
+      <td>03</td>
+      <td>.org</td>
+      <td>1 Year</td>
+      <td>$75</td>
+      <td>$10</td>
+      <td>$10</td>
+    </tr>
+    <tr>
+      <td>04</td>
+      <td>.info</td>
+      <td>1 Year</td>
+      <td>$70</td>
+      <td>$10</td>
+      <td>$10</td>
+    </tr>
+  </tbody>
+  
+</table>
+
+<form action="#" class="needs-validations" novalidate>
+  <div class="form bg-info">
+     <div class="container ">
+        <div class="mb-3">
+          <label for="Email">Email Address</label>
+          <input type="email" class="form-control" id="email" placeholder="abc@gmail.com"  required>
+      <div class="form-text">we'll never share your email with anyone else</div>
+      <div class="valid-feedback">
+        Please enter email
+      </div>
+    </div>
+    
+    <div class="input-group flex-nowrap my-3">
+      <span class="input-group-text" id="addon-wrapping">@</span>
+      <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping"  required>
+      <div class="valid-feedback">
+        please enter Username
+      </div>
+    </div>
+
+    <div class="row g-3 align-items-center">
+       <div class="col-auto">
+         <label for="inputPassword6" class="col-form-label">Password</label>
+       </div>
+       <div class="col-auto">
+         <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline"  required>
+       </div>
+       <div class="col-auto">
+         <span id="passwordHelpInline" class="form-text">
+          Must be 8-20 characters long.
+        </span>
+      </div>
+    </div>
+    <div class="valid-feedback">
+      Please enter password
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="checkbox"  required>
+      <label for="checkbox" class="form-check-lable">Check me out</label>
+      <div class="invalid-feedback">
+        Please select a checkbox.
+      </div>
+    </div>
+    
+   
+    
+    <select class="form-select my-3" aria-label="Default select example"  required>
+      <option selected disabled value="">Education Qualification...</option>
+      <option value="1">PSC</option>
+      <option value="2">SSC</option>
+      <option value="3">HSC</option>
+    </select>
+    <div class="invalid-feedback">
+      Please select.
+    </div>
+
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">If you have any objection ,please write where</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+
+    <label for="email">Enter your email</label>
+    <div class="input-group mb-3">
+      <span class="input-group-text">@</span>
+      <input type="email" class="form-control"  required>
+    </div>
+    <div class="invalid-feedback">
+      Please enter your email.
+    </div>
+    
+
+
+
+    <button type="submit" class="btn btn-primary">submit</button>
+
+    <p class="display-1 text-center">VAIYAra amar submit button kaj kore na,,,,,</p>
+  </div>
+ </div>
+</form>
+
+<!-- script link -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
